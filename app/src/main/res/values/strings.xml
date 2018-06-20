@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Testing</string>
+    <string name="main_expression_placeholder">Expresión</string>
+    <string name="main_words_dictionary_placeholder">Diccionario de palabras</string>
+    <string name="main_calculate_button_text">¡Calcular!</string>
+    <string name="main_get_all_text">Ver lista completa</string>
+    <string name="default_alert_dialog_title">Ayudante de palabras cruz</string>
+    <string name="words_management_add_word_button">Añadir palabra</string>
+    <string name="words_management_list_empty_label">¡No hay palabras!</string>
+    <string name="words_management_deletion_confirmed">¿Estás seguro de que deseas eliminar esta palabra?</string>
+    <string name="words_management_word_hint">Palabra</string>
+    <string name="main_error_more_blanks_than_dictionary_size">El numero de espacios en blanco no puede ser mayor que el tamaño del diccionario</string>
+    <string name="search_view">SearchView</string>
+    <string name="error_repeated_word">¡Esta palabra ya existe!</string>
+    <string name="word_success_on_insert">La palabra se añadio con éxito</string>
+    <string name="info_about_update">La modificación no funciona  en los registros de la BD, solo actualiza los elementos de esta lista (Propositos de prueba)</string>
+</resources>
