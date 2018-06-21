@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Testing</string>
+    <string name="app_name">Cross Words Helper</string>
     <string name="main_expression_placeholder">Expresión</string>
     <string name="main_words_dictionary_placeholder">Diccionario de palabras</string>
     <string name="main_calculate_button_text">¡Calcular!</string>
@@ -14,4 +14,6 @@
     <string name="error_repeated_word">¡Esta palabra ya existe!</string>
     <string name="word_success_on_insert">La palabra se añadio con éxito</string>
     <string name="info_about_update">La modificación no funciona  en los registros de la BD, solo actualiza los elementos de esta lista (Propositos de prueba)</string>
+    <string name="main_balanced_parentheses_placeholder">Paréntesis balanceados</string>
+    <string name="main_button_calculate_balanced_parentheses">Calcular paréntesis</string>
 </resources>

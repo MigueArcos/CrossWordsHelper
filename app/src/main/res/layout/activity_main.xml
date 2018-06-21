@@ -42,4 +42,22 @@
         android:layout_gravity="center"
         android:text="@string/main_get_all_text"/>
 
+    <EditText
+        android:id="@+id/balanced_par"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/main_balanced_parentheses_placeholder"
+        android:textSize="30sp"
+        android:singleLine="true"
+        android:inputType="number"
+        android:layout_gravity="center"/>
+
+
+    <Button
+        android:id="@+id/calculate_par"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/main_button_calculate_balanced_parentheses"/>
+
 </LinearLayout>

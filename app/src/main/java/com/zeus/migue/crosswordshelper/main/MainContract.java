@@ -11,11 +11,14 @@ import com.zeus.migue.crosswordshelper.Word;
 public class MainContract {
     interface View{
         void onPermutationsReady(List<Word> words);
+        void showBalancedParentheses(List<String> combinations);
     }
     interface Presenter{
         void requestCombinations(String expression, String dictionary);
+        void requestBalancedParentheses(int number);
     }
     interface Model{
         List<Word> getPermutations(String expression, String dictionary);
+        List<String> calculateBalancedParentheses(int number);
     }
 }

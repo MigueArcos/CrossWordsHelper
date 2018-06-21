@@ -18,5 +18,10 @@ public class MainPresenter implements MainContract.Presenter{
         view.onPermutationsReady(model.getPermutations(expression, dictionary));
     }
 
+    @Override
+    public void requestBalancedParentheses(int number) {
+        view.showBalancedParentheses(model.calculateBalancedParentheses(number));
+    }
+
 
 }
